@@ -1698,4 +1698,18 @@ input, select, textarea {
 	height: auto; /* Cambiado a auto para que la altura se ajuste proporcionalmente a la anchura */
 	object-fit: cover;
   }
+
+  /* Estilo para centrar el video */
+.video-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	padding-bottom: 20px;
+}
+/* Estilo para hacer que el video sea responsivo */
+.video-container video {
+	max-width: 100%;
+	height: auto;
+}
   
