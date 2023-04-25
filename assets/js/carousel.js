@@ -41,5 +41,4 @@ carousel4.images = ['images/newcomers/image_01.jpeg', 'images/newcomers/image_02
 //Carrousel de delivered
 const carousel5 = new Carousel('carousel5', 'image-delivered', 'prev-btn-delivered', 'next-btn-delivered');
 carousel5.images = ['images/delivered/image_01.jpeg', 'images/delivered/image_02.jpeg', 'images/delivered/image_03.jpeg', 
-'images/delivered/image_04.jpeg', 'images/delivered/image_05.jpeg', 'images/delivered/image_06.jpeg', 'images/delivered/image_07.jpeg', 
-'images/delivered/image_08.jpeg', 'images/delivered/image_09.jpeg'];
+'images/delivered/image_04.jpeg', 'images/delivered/image_05.jpeg', 'images/delivered/image_06.jpeg', 'images/delivered/image_07.jpeg'];
