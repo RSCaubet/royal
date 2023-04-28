@@ -30,7 +30,7 @@ carousel2.images = ['images/english/image_01.JPG', 'images/english/image_02.JPG'
 
 //Carrousel de Franceses
 const carousel3 = new Carousel('carousel3', 'image-french', 'prev-btn-french', 'next-btn-french');
-carousel3.images = ['images/french/image_01.JPG','images/french/image_02.JPG','images/french/image_03.JPG'];
+carousel3.images = ['images/french/image_01.JPG','images/french/image_02.JPG','images/french/image_03.JPG', 'images/french/image_04.JPG'];
 
 //Carrousel de Newcomers
 const carousel4 = new Carousel('carousel4', 'image-newcomers', 'prev-btn-newcomers', 'next-btn-newcomers');
