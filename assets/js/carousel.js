@@ -22,7 +22,7 @@ class Carousel {
 // Crea instancias de carruseles
 //Carrousel de los Bullys
 const carousel1 = new Carousel('carousel1', 'image-bully', 'prev-btn-bully', 'next-btn-bully');
-carousel1.images = ['images/bully/image_01.JPG', 'images/bully/image_02.JPG', 'images/bully/image_03.JPG' ];
+carousel1.images = ['images/bully/image_01.JPG', 'images/bully/image_02.JPG', 'images/bully/image_03.JPG', 'images/bully/image_04.JPG' ];
 
 // Carrousel de los Ingleses
 const carousel2 = new Carousel('carousel2', 'image-english', 'prev-btn-english', 'next-btn-english');
