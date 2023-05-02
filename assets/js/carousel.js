@@ -42,3 +42,20 @@ carousel4.images = ['images/newcomers/image_01.jpeg', 'images/newcomers/image_02
 const carousel5 = new Carousel('carousel5', 'image-delivered', 'prev-btn-delivered', 'next-btn-delivered');
 carousel5.images = ['images/delivered/image_01.jpeg', 'images/delivered/image_02.jpeg', 'images/delivered/image_03.jpeg', 
 'images/delivered/image_04.jpeg', 'images/delivered/image_05.jpeg', 'images/delivered/image_06.jpeg', 'images/delivered/image_07.jpeg'];
+
+
+//video que carga al final
+
+const lazyVideo = document.querySelector('#criadero-video');
+const lazyVideoObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const source = entry.target.querySelector('source');
+      source.setAttribute('src', source.getAttribute('data-src'));
+      lazyVideo.load();
+      lazyVideoObserver.unobserve(entry.target);
+    }
+  });
+});
+
+lazyVideoObserver.observe(lazyVideo);
