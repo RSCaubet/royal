@@ -148,10 +148,10 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-moz-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+		-webkit-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+		-ms-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+		transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
@@ -395,10 +395,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-moz-transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.1s ease-in-out;
+		-webkit-transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.1s ease-in-out;
+		-ms-transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.1s ease-in-out;
+		transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.1s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
 		border: solid 1px #ffffff;
@@ -512,10 +512,10 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+				-moz-transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.1s ease-in-out;
+				-webkit-transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.1s ease-in-out;
+				-ms-transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.1s ease-in-out;
+				transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.1s ease-in-out;
 				border-radius: 4px;
 				border: solid 1px #ffffff;
 				content: '';
@@ -1007,10 +1007,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+		-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+		-ms-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+		transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
@@ -1577,10 +1577,10 @@ input, select, textarea {
 			}
 
 				#main article .close:before {
-					-moz-transition: background-color 0.2s ease-in-out;
-					-webkit-transition: background-color 0.2s ease-in-out;
-					-ms-transition: background-color 0.2s ease-in-out;
-					transition: background-color 0.2s ease-in-out;
+					-moz-transition: background-color 0.1s ease-in-out;
+					-webkit-transition: background-color 0.1s ease-in-out;
+					-ms-transition: background-color 0.1s ease-in-out;
+					transition: background-color 0.1s ease-in-out;
 					content: '';
 					display: block;
 					position: absolute;
